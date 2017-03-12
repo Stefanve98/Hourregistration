@@ -19,9 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/frontpage', function () {
-    return view('frontpage.content.content');
-});
+Route::get('/homepage', 'HomePageController@index');
 
 Route::get('/layout', function () {
     return view('layout.index');
