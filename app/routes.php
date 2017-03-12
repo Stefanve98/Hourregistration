@@ -11,8 +11,16 @@
 |
 */
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/frontpage', function () {
+    return view('frontpage.content.content');
 });
 
 Route::get('/layout', function () {
