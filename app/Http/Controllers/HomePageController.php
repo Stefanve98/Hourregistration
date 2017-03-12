@@ -11,6 +11,6 @@ class HomePageController extends Controller
      */
     public function index()
     {
-        return view('frontpage/content/content');
+        return view('homepage/content/content');
     }
 }

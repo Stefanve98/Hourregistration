@@ -1,4 +1,4 @@
-@extends('frontpage.index')
+@extends('homepage.index')
 
 @section('content')
 <div class="container">

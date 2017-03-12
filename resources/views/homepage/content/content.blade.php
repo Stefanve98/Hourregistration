@@ -1,4 +1,4 @@
-@extends('frontpage.index')
+@extends('homepage.index')
 
 @section('content')
     <div class="py-5 section text-center">
@@ -119,5 +119,5 @@
             </div>
         </div>
     </div>
-    @include('frontpage.footer')
+    @include('homepage.footer')
 @endsection
