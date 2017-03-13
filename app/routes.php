@@ -13,14 +13,9 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/hour_overview', 'HourOverviewController@index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/dashboard', 'DashboardController@index');
 
-Route::get('/homepage', 'HomePageController@index');
+Route::get('/', 'HomePageController@index');
 
-Route::get('/layout', function () {
-    return view('layout.index');
-});

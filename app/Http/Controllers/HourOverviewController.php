@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use Illuminate\Http\Request;
 
-class HomePageController extends Controller
+class HourOverviewController extends Controller
 {
+
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        return view('homepage/content/content');
+        return view('hour_overview.index');
     }
 }
