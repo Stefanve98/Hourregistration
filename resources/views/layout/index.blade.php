@@ -56,8 +56,14 @@
 <!-- Bootstrap -->
 <script src="{{ asset('js/bootstrap.js') }}"></script>
 
+<!-- bootstrap-progressbar -->
+<script src="{{ asset('js/bootstrap-progressbar.js') }}"></script>
+
 <!-- Custom Theme Scripts -->
 <script src="{{ asset('js/custom.js') }}"></script>
+
+
+
 
 </body>
 </html>
